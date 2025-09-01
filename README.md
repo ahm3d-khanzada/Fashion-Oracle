@@ -8,13 +8,18 @@ It analyzes user features (like skin tone, hair color, face shape, etc.) and sug
 ## 🚀 Features
 - Outfit recommendation system  
 - Upper wear, lower wear, and full dress generation  
-- Virtual try-on integration  
+- Virtual try-on integration
+- Text to Image
+- Fashion Community
+- OLX Based Donation System  
 - Detectron2 + PyTorch based models  
-- Django + React full-stack setup  
+- Django + React full-stack setup
+
 
 ---
 
 ## 📂 Project Structure
+```
 Fashion-Oracle/
 │── backend/ # Django backend
 │── frontend/ # React frontend
@@ -22,7 +27,7 @@ Fashion-Oracle/
 │── requirements.txt
 │── Dockerfile
 │── README.md
-
+```
 
 ---
 
