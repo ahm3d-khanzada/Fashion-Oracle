@@ -21,12 +21,13 @@ It analyzes user features (like skin tone, hair color, face shape, etc.) and sug
 ## 📂 Project Structure
 ```
 Fashion-Oracle/
-│── backend/ # Django backend
-│── frontend/ # React frontend
-│── models/ # Pre-trained or custom-trained models
-│── requirements.txt
-│── Dockerfile
-│── README.md
+├── backend/
+│ └── auth_system/
+│ └── requirements.txt
+├── frontend/
+│ └── ecommerce/
+├── Dockerfile x
+└── README.md
 ```
 
 ---
