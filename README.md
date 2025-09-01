@@ -22,3 +22,23 @@ Fashion-Oracle/
 │── requirements.txt
 │── Dockerfile
 │── README.md
+
+
+---
+
+## 🔗 Model Weights
+
+Pre-trained models can be downloaded here:  
+👉 [Google Drive Link](https://drive.google.com/your-model-link-here)
+
+After downloading, place the files inside the `models/` folder.
+
+---
+
+## ⚙️ Installation
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/ahm3d-khanzada/Fashion-Oracle.git
+cd Fashion-Oracle
+```
