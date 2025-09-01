@@ -42,3 +42,26 @@ After downloading, place the files inside the `models/` folder.
 git clone https://github.com/ahm3d-khanzada/Fashion-Oracle.git
 cd Fashion-Oracle
 ```
+### 2️⃣ Setup Python Environment
+```bash
+python3 -m venv venv
+source venv/bin/activate   # On Linux/Mac
+venv\Scripts\activate      # On Windows
+pip install -r requirements.txt
+```
+### 3️⃣ Run Backend (Django)
+```bash
+python manage.py runserver
+```
+### 4️⃣ Run Frontend (React)
+```bash
+cd frontend
+npm install
+npm start
+```
+
+
+## 👨‍💻 Author
+
+Developed by Ahmed Khanzada ✨
+For queries, reach out via GitHub Issues.
