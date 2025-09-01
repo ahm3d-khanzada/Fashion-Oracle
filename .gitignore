@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Django / Flask
+*.sqlite3
+db.sqlite3
+*.log
+media/
+staticfiles/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node / React
+node_modules/
+build/
+dist/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Large files (handled by Git LFS instead)
+*.pt
+*.pth
+*.tar
+*.zip
+*.mp4
+*.avi
+*.jpg
+*.png
+*.safetensors

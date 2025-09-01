@@ -1,0 +1,108 @@
+// Mock data for donations and requests
+export const mockDonations = [
+  {
+    id: 1,
+    title: "Winter Jackets Collection",
+    donor: "John Smith",
+    category: "Jackets",
+    quantity: 5,
+    size: "M, L",
+    season: "Winter",
+    location: "New York",
+    status: "live",
+    postedDate: "2024-03-08",
+    description: "Warm winter jackets in good condition, perfect for the cold season",
+    images: ["/placeholder.svg?height=300&width=400", "/placeholder.svg?height=300&width=400"],
+    contactInfo: {
+      email: "john@example.com",
+      phone: "+1 234-567-8901",
+    },
+  },
+  {
+    id: 2,
+    title: "Summer T-Shirts Bundle",
+    donor: "Anonymous",
+    category: "Shirts",
+    quantity: 8,
+    size: "S, M",
+    season: "Summer",
+    location: "Los Angeles",
+    status: "live",
+    postedDate: "2024-03-07",
+    description: "Collection of cotton t-shirts, barely used",
+    images: ["/placeholder.svg?height=300&width=400", "/placeholder.svg?height=300&width=400"],
+  },
+  {
+    id: 3,
+    title: "Kids Clothing Package",
+    donor: "Sarah Wilson",
+    category: "Children",
+    quantity: 12,
+    size: "4-6 years",
+    season: "All-Season",
+    location: "Chicago",
+    status: "live",
+    postedDate: "2024-03-06",
+    description: "Mixed children's clothing in excellent condition",
+    images: ["/placeholder.svg?height=300&width=400", "/placeholder.svg?height=300&width=400"],
+    contactInfo: {
+      email: "sarah@example.com",
+      phone: "+1 345-678-9012",
+    },
+  },
+]
+
+export const mockMyDonations = [
+  {
+    id: 101,
+    title: "Formal Shirts",
+    category: "Shirts",
+    quantity: 3,
+    status: "live",
+    postedDate: "2024-03-08",
+    images: ["/placeholder.svg?height=300&width=400", "/placeholder.svg?height=300&width=400"],
+    requestCount: 2,
+  },
+  {
+    id: 102,
+    title: "Winter Sweaters",
+    category: "Sweaters",
+    quantity: 4,
+    status: "approved",
+    postedDate: "2024-03-07",
+    images: ["/placeholder.svg?height=300&width=400", "/placeholder.svg?height=300&width=400"],
+    requestCount: 1,
+  },
+  {
+    id: 103,
+    title: "Denim Collection",
+    category: "Pants",
+    quantity: 5,
+    status: "completed",
+    postedDate: "2024-03-06",
+    images: ["/placeholder.svg?height=300&width=400", "/placeholder.svg?height=300&width=400"],
+    requestCount: 3,
+  },
+]
+
+export const mockRequests = [
+  {
+    id: 201,
+    donationId: 1,
+    requesterName: "Michael Brown",
+    reason: "For local shelter",
+    status: "pending",
+    requestDate: "2024-03-08",
+    additionalInfo: "Needed for homeless shelter program",
+  },
+  {
+    id: 202,
+    donationId: 2,
+    requesterName: "Emily Davis",
+    reason: "Family needs",
+    status: "approved",
+    requestDate: "2024-03-07",
+    additionalInfo: "For low-income family of four",
+  },
+]
+

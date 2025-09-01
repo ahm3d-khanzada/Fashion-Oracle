@@ -1,0 +1,151 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+
+.form-select {
+  position: relative;
+  overflow: hidden;
+  border: none; /* Remove default border */
+}
+
+.form-select::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: 0.25rem; /* Match rounded corners */
+  background: linear-gradient(45deg, #34A85A, #FFC107);
+  z-index: -1; /* Place behind the button */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.form-select:hover::before {
+  transform: scale(1.05); /* Scale on hover */
+}
+
+.cart-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 15px;
+  transition: box-shadow 0.3s;
+}
+
+.cart-item:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item-name {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.cart-item-price {
+  font-weight: bold;
+  color: #28a745;
+}
+
+.remove-button {
+  border: none;
+  background-color: transparent;
+  color: #dc3545;
+}
+
+.remove-button:hover {
+  color: #c82333;
+}
+
+.cart-summary {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.cart-summary h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.cart-summary h3 {
+  font-size: 20px;
+  color: #28a745;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+  
+  .product-screen {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.product-details, .product-buy {
+    border-radius: 10px;
+    background-color: #fdfdfd;
+}
+
+.product-title h3 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 24px;
+    color: #ff4d4d;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .product-image {
+        max-height: 300px;
+    }
+}
+
+.image-zoom-container {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.image-zoom-container:hover .product-image {
+  transform: scale(1.2); /* Zoom effect on hover */
+}
+
+.product-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-price {
+  font-size: 1.2rem;
+  color: #28a745; /* Green color for price */
+}
+
+.product-image-container {
+  max-width: 100%; /* Ensure the container can take full width */
+  overflow: hidden; /* Prevent overflow */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+}
+
+.product-image {
+  width: 100%; /* Image takes full width of container */
+  height: auto; /* Maintain aspect ratio */
+  transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+
